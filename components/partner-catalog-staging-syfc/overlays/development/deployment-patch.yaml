@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: partner-catalog-staging-syfc
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/mjobanek-tenant/partner-catalog-staging-2/partner-catalog-staging-syfc@sha256:dc3356ca1dd82a40f64433c06467cdb8cf16410168a2f6dec158fc15aadfb21c
+        name: my-java-springboot
+        resources: {}
+status: {}
