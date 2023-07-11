@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: partner-catalog-staging-syfc
     app.kubernetes.io/part-of: partner-catalog-staging-2
-  name: partner-catalog-staging-s5xct
+  name: partner-catalog-staging-samr5
 spec:
   path: /
   port:
